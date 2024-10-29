@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "loop-iteration-practice-Jacob-Carrell-Student", "loop-iteration-practice-Jacob-Carrell-Student.csproj", "{B4C4A28F-7245-4047-97E7-8E768822461C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4C4A28F-7245-4047-97E7-8E768822461C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C4A28F-7245-4047-97E7-8E768822461C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C4A28F-7245-4047-97E7-8E768822461C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C4A28F-7245-4047-97E7-8E768822461C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B636CEDC-3735-4CD8-8764-6C9851C34B81}
+	EndGlobalSection
+EndGlobal
