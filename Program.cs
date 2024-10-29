@@ -18,7 +18,6 @@ class Program
 
     public static void Write1ThroughN_While()
     {
-        int i = 1;
         int n = 10;
 
         while (i <= n)
@@ -36,7 +35,7 @@ class Program
 
     public static void Write1ThroughN_For(int n)
     {
-        for (int i = 1; i <= n; i++;)
+        for (int i =1; i <= n; i++)
         {
             Console.WriteLine(i);
         }
@@ -51,7 +50,6 @@ class Program
 
     public static void WriteNThrough1_While()
     {
-        int i = 1;
         int n = 10;
 
         while (i <= n)
@@ -69,7 +67,7 @@ class Program
 
     public static void WriteNThrough1_For(int n)
     {
-        for (int i = 1; i <= n; n--;)
+        for (int i = 1;i <= n; n--)
         {
             Console.WriteLine(n);
         }
@@ -106,42 +104,36 @@ class Program
 
     public static void FindSum(int n)
     {
-        int i = 1;
         int sum = 0;
 
         while (i >= n)
         {
             Console.WriteLine(i);
             i++;
-            i + sum;
         }
         Console.WriteLine("The sum is " + sum);
     }
 
     public static void FindSumOfEvenNumbers(int n)
     {
-        int i = 1;
         int sum = 0;
 
         while (i >= n && i % 2 == 0)
         {
             Console.WriteLine(i);
             i++;
-            i + sum;
         }
         Console.WriteLine("The sum is " + sum);
     }
 
     public static void FindSumOfOddNumbers(int n)
     {
-        int i = 1;
         int sum = 0;
 
         while (i >= n && i !% 2 == 0)
         {
             Console.WriteLine(i);
             i++;
-            i + sum;
         }
         Console.WriteLine("The sum is " + sum);
     }
